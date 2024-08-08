@@ -1,0 +1,23 @@
+{
+  "name": "aws-ses-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MarceloAvanzi/aws-ses-integration.git",
+  "author": "Marcelo Avanzi <marcelodaniel@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.624.0",
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-group-routes": "^1.1.0"
+  }
+}
