@@ -1,5 +1,5 @@
 # AWS SES Email Template CRUD
-  
+   
 This project simplifies managing (Create, Read, Update, Delete, and Send) email templates using AWS SES (Amazon Simple Email Service).
 
 # Documentation
